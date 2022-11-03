@@ -20,33 +20,33 @@
 
 	<body>
 		<header class="page-header">
-			<div class="container head">
-				<nav>
-					<ul class="site-nav">
-						<li class="item icon">
+			<div class="container container--position">
+				<nav class="nav">
+					<ul class="nav_list">
+						<li class="nav_item">
 							<a href="./index.html" class="logo">
-								<span class="part-logo">Web</span>
+								<span class="logo_design">Web</span>
 								Studio
 							</a>
 						</li>
-						<li class="item"><a href="./index.html" class="link current">Студія</a></li>
-						<li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-						<li class="item"><a href="" class="link">Контакти</a></li>
+						<li class="nav_item"><a href="./index.html" class="nav_link nav_link--current">Студія</a></li>
+						<li class="nav_item"><a href="./portfolio.html" class="nav_link">Портфоліо</a></li>
+						<li class="nav_item"><a href="" class="nav_link">Контакти</a></li>
 					</ul>
 				</nav>
 
-				<ul class="list">
-					<li class="item">
-						<a href="mailto:info@devstudio.com" class="contacts">
-							<svg class="icon-head" width="16px" height="12px">
+				<ul class="contacts">
+					<li class="contacts_item">
+						<a href="mailto:info@devstudio.com" class="contacts_link">
+							<svg class=" contacts_icon" width="16px" height="12px">
 								<use href="./images/symbol-defs.svg#icon-envelope" width="16px" heigth="12px"></use>
 							</svg>
 							info@devstudio.com
 						</a>
 					</li>
-					<li class="item">
-						<a href="tel:+380961111111" class="contacts">
-							<svg class="icon-head" width="10px" height="16px">
+					<li class="contacts_item">
+						<a href="tel:+380961111111" class="contacts_link">
+							<svg class="contacts_icon" width="10px" height="16px">
 								<use href="./images/symbol-defs.svg#icon-smartphone" width="10px" heigth="16px"></use>
 							</svg>
 							+38 096 111 11 11
@@ -57,47 +57,47 @@
 		</header>
 		<main>
 			<section class="hero">
-				<h1 class="hero-title">
+				<h1 class="hero_title">
 					Ефективні рішення для
 					<br />
 					вашого бізнесу
 				</h1>
 				<button type="button" class="button" data-modal-open>Замовити послугу</button>
 				<div class="backdrop is-hidden" data-modal>
-					<div class="modal"><button type="button" class="close-modal" data-modal-close><svg class="close-icon" width="30px" height="30px"><use href="./images/symbol-defs.svg#icon-close"></use></svg></button>
-					<form name="order-service" autocomplete="off" class="form-container">
-						<b class="form-title">Залиште свої дані, ми вам передзвонимо</b>
-							<label class="form-label">
-								<span class="label-name">Ім'я</span>
-								<div class="input-container">
-									<input type="text" name="name" class="form-area" />
-									<svg class="icon-form" width="18px" height="18px"><use href="./images/symbol-defs.svg#icon-person" ></use></svg>
+					<div class="modal"><button type="button" class="modal_close" data-modal-close><svg class="close-icon" width="30px" height="30px"><use href="./images/symbol-defs.svg#icon-close"></use></svg></button>
+					<form name="order-service" autocomplete="off" class="form">
+						<b class="form_title">Залиште свої дані, ми вам передзвонимо</b>
+							<label class="form_label">
+								<span class="label_name">Ім'я</span>
+								<div class="form_container">
+									<input type="text" name="name" class="form_input" />
+									<svg class="form_icon" width="18px" height="18px"><use href="./images/symbol-defs.svg#icon-person" ></use></svg>
 								</div>
 							</label>
-							<label class="form-label">
-								<span class="label-name">Телефон</span>
-								<div class="input-container">
-								<input type="tel" name="phone-number" class="form-area" />
-								<svg class="icon-form" width="18px" height="18px"><use href="./images/symbol-defs.svg#icon-phone" ></use></svg>
+							<label class="form_label">
+								<span class="label_name">Телефон</span>
+								<div class="form_container">
+								<input type="tel" name="phone-number" class="form_input" />
+								<svg class="form_icon" width="18px" height="18px"><use href="./images/symbol-defs.svg#icon-phone" ></use></svg>
 								</div>
 							</label>
-							<label class="form-label">
-								<span class="label-name">Пошта</span>
-								<div class="input-container">
-								<input type="email" name="email" class="form-area" />
-								<svg class="icon-form" width="18px" height="18px"><use href="./images/symbol-defs.svg#icon-email"></use></svg>
+							<label class="form_label">
+								<span class="label_name">Пошта</span>
+								<div class="form_container">
+								<input type="email" name="email" class="form_input" />
+								<svg class="form_icon" width="18px" height="18px"><use href="./images/symbol-defs.svg#icon-email"></use></svg>
 								</div>
 							</label>
-						<label class="form-label coment">
-							<span class="label-name">Коментар</span>
-							<textarea name="coment" rows="10" placeholder="Введіть текст" class="coment-form"></textarea>
+						<label class="form_label">
+							<span class="label_name">Коментар</span>
+							<textarea name="coment" rows="10" placeholder="Введіть текст" class="form_coment"></textarea>
 						</label>
-						<label class="label-check">
-							<input type="checkbox" name="checkbox" value="is-agree" class="checkbox">
-							<span class="check-icon"></span>
-							<span class="check-agree">Погоджуюся з розсилкою та приймаю <a href=""> Умови договору</a></span>
+						<label class="form_terms">
+							<input type="checkbox" name="checkbox" value="is-agree" class="form_checkbox">
+							<span class="form_check-mark"></span>
+							<span class="form_agreement">Погоджуюся з розсилкою та приймаю <a href="form_contract"> Умови договору</a></span>
 						</label>
-						<button type="submit" class="sumbit-form">Відправити</button>
+						<button type="submit" class="form_sumbit">Відправити</button>
 					</form>
 					</div>
 				</div>
