@@ -1,0 +1,20 @@
+body {
+	background-color: #ffffff;
+	color: $primaryTextColor;
+	font-family: $primaryFontFamily;
+	letter-spacing: 0.03em;
+	justify-content: center;
+}
+ul {
+	list-style: none;
+}
+.visually-hiden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0, 0, 0, 0);
+	overflow: hidden;
+}
