@@ -18,3 +18,19 @@ ul {
 	clip: rect(0, 0, 0, 0);
 	overflow: hidden;
 }
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+.section_title {
+	color: $titleTextColor;
+
+	font-size: 14px;
+	line-height: 1.14;
+}
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
