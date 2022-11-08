@@ -1,0 +1,29 @@
+.clients_list {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+.clients_link {
+	fill: #afb1b8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 92px;
+	width: 170px;
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+
+	transition-property: fill;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		border-color: $acentColor;
+		fill: $acentColor;
+	}
+}
+.clients_item:not(:last-child) {
+	margin-right: 30px;
+}

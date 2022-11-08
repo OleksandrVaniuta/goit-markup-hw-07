@@ -23,10 +23,14 @@ ul {
 	padding-bottom: 94px;
 }
 .section_title {
+	margin-top: 0;
+	margin-bottom: 50px;
+
 	color: $titleTextColor;
 
-	font-size: 14px;
-	line-height: 1.14;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
 }
 .container {
 	width: 1200px;
