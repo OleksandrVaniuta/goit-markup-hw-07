@@ -143,7 +143,7 @@ ul {
   padding-top: 24px;
   padding-bottom: 25px;
   color: #000000;
-  font-family: Roboto, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -441,7 +441,7 @@ ul {
 .preference_title {
   margin-top: 30px;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.14em;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -605,6 +605,10 @@ ul {
   padding-left: 30px;
 }
 
+.networks_title {
+  margin-top: 0;
+}
+
 .networks_link--color {
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
@@ -659,6 +663,8 @@ ul {
 .address_container {
   width: 270px;
   margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .address_street {
@@ -681,6 +687,9 @@ ul {
 
 .address_item {
   margin-bottom: 9px;
+}
+.address_item:last-child {
+  margin: 0;
 }
 
 .contacts--style {

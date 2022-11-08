@@ -12,6 +12,8 @@
 .address_container {
 	width: 270px;
 	margin: 0;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .address_street {
 	margin: 0;
@@ -30,6 +32,10 @@
 }
 .address_item {
 	margin-bottom: 9px;
+
+	&:last-child {
+		margin: 0;
+	}
 }
 .contacts--style {
 	color: rgba(255, 255, 255, 0.6);
