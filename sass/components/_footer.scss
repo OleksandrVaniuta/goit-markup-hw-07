@@ -3,19 +3,19 @@
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
-.page-footer_block {
+.page-footer__block {
 	display: flex;
 	width: 1200px;
 	margin: 0 auto;
 	align-items: baseline;
 }
-.address_container {
+.address__container {
 	width: 270px;
 	margin: 0;
 	padding-left: 15px;
 	padding-right: 15px;
 }
-.address_street {
+.address__street {
 	margin: 0;
 	margin-bottom: 9px;
 	color: $mainWhite;
@@ -26,11 +26,11 @@
 .address {
 	margin-top: 20px;
 }
-.address_list {
+.address__list {
 	padding: 0;
 	margin: 0;
 }
-.address_item {
+.address__item {
 	margin-bottom: 9px;
 
 	&:last-child {

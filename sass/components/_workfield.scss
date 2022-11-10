@@ -1,15 +1,12 @@
-.section--size {
-	width: 1200px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin: 0 auto;
+.section--padding-top {
 	padding-top: 56px;
 }
 .workfield {
 	display: flex;
 	padding: 0;
+	margin: 0;
 }
-.workfield_item {
+.workfield__item {
 	width: 370px;
 	height: 294px;
 	position: relative;
@@ -18,7 +15,7 @@
 		margin-right: 30px;
 	}
 }
-.workfield_descr {
+.workfield__descr {
 	display: block;
 	position: absolute;
 	text-align: center;
@@ -32,7 +29,7 @@
 	background-color: rgba(47, 48, 58, 0.8);
 	bottom: 0px;
 }
-.workfield_text {
+.workfield__text {
 	margin: 0;
 	font-size: 14px;
 	font-weight: 700;

@@ -1,3 +1,6 @@
+.section--bottom-padding {
+	padding-bottom: 59px;
+}
 .preference {
 	display: flex;
 	width: 1200px;
@@ -5,7 +8,7 @@
 	padding-right: 15px;
 	margin: 0 auto;
 }
-.preference_item {
+.preference__item {
 	width: 270px;
 
 	&:not(:last-child) {
@@ -13,7 +16,7 @@
 	}
 }
 
-.preference_title {
+.preference__title {
 	margin-top: 30px;
 	margin-bottom: 10px;
 	font-size: 14px;
@@ -22,17 +25,17 @@
 	letter-spacing: 0.03em;
 	color: $titleTextColor;
 }
-.preference_iconbox {
+.preference__iconbox {
 	border-radius: 4px;
 	background-color: #f5f4fa;
 	text-align: center;
 	align-items: center;
 }
-.preference_icon {
+.preference__icon {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
-.preference_text {
+.preference__text {
 	font-size: 14px;
 	line-height: 1.71;
 	margin-top: 0;

@@ -1,7 +1,7 @@
-.page-footer_subscribe {
+.page-footer__subscribe {
 	padding-left: 93px;
 }
-.subscribe_title {
+.subscribe__title {
 	display: block;
 	color: $mainWhite;
 	font-weight: 700;
@@ -11,11 +11,11 @@
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
-.subscribe_form {
+.subscribe__form {
 	display: flex;
 	align-items: center;
 }
-.subscribe_input {
+.subscribe__input {
 	width: 358px;
 	margin-right: 12px;
 	padding: 15px 16px;
